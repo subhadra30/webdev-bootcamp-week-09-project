@@ -1,0 +1,16 @@
+.outlinebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 5%;
+  margin: 15%;
+}
+
+.profiledisplaybox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: medium;
+  list-style-type: none;
+}
