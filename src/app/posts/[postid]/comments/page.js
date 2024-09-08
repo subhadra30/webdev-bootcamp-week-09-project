@@ -1,7 +1,6 @@
 import { db } from "@/lib/db";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import styles from "./page.module.css";
 
 export default async function comments() {
   const comments = await db.query(`select * from usercomments`).rows;
